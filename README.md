@@ -4,6 +4,7 @@ Buen dia mi nombre es santiago arias y aqui dejare informacion sobre el reto té
 Lo primero sería disculparme por no grabar el video con cámara, ya que, no tenía la facilidad de grabar la pantalla de mi pc y mi cara, además del ruido externo. 
 
 Link del video en YOUTUBE: https://www.youtube.com/watch?v=ODxQsHipS_k
+
 Link del video en DRIVE: https://drive.google.com/file/d/1-WUh_CmvU-DdXuR-ByL49lAmilFUsbZo/view?usp=sharing
 
 Base de datos: Para la creación de la base de datos dejaré el archivo . sql, nombre de la base de datos: estacion
