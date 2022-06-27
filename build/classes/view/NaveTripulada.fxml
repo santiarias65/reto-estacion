@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="271.0" prefWidth="249.0" spacing="5.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NaveTripuladaController">
+   <children>
+      <Label alignment="CENTER" prefHeight="0.0" prefWidth="249.0" text="Informacion Especifica" underline="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <HBox prefHeight="31.0" prefWidth="153.0" spacing="7.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="31.0" prefWidth="172.0" text="numero  tripulantes :" />
+            <Label fx:id="infoTripulantes" alignment="CENTER" prefHeight="31.0" prefWidth="174.0" text="100" />
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="34.0" prefHeight="99.0" prefWidth="249.0" spacing="7.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="31.0" prefWidth="172.0" text="mision :" />
+            <Label fx:id="infoMision" alignment="TOP_LEFT" prefHeight="99.0" prefWidth="307.0" text="se llevara acabo una investigacion en marte" wrapText="true">
+               <HBox.margin>
+                  <Insets top="7.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>
